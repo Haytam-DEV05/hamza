@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJET PFE | TECH.MA</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/home-style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo" onclick="window.location.href='home.html';">
+        <i class="fa-solid fa-house"></i> <span>TECH.MA</span>
+      </div>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <ul>
+        <li><a href="#" class="active">PROJET PFE</a></li>
+        <li><a href="portfolio.html">Mon Portfolio</a></li>
+        <li><a href="index.html">Déconnexion</a></li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h1>MON PROJET PFE</h1>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <main>
+      <section id="presentation">
+        <h2>Présentation du Projet</h2>
+        <p>
+          Ce projet consiste en la mise en place d’une infrastructure réseau
+          complète basée sur <strong>Windows Server</strong> intégrant Active
+          Directory, DNS, DHCP, IIS et FTP. Le serveur est connecté à un switch
+          distribuant le réseau vers plusieurs clients filaires, un point
+          d’accès WLAN ainsi qu’un accès distant sécurisé. La gestion des
+          utilisateurs, des GPO et de la sécurité réseau est entièrement
+          configurée dans un environnement virtualisé via
+          <strong>Hyper-V</strong> et <strong>VirtualBox</strong>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 – TECH.MA | All Rights Reserved</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
