@@ -1,4 +1,3 @@
-/* Variables d'alwan */
 :root {
     --primary: #00c3ff;
     --dark-bg: #0a192f;
@@ -19,7 +18,6 @@ body {
     line-height: 1.6;
 }
 
-/* ===== NAVBAR ===== */
 nav {
     position: fixed;
     top: 0;
@@ -69,19 +67,18 @@ nav ul li a:hover, nav ul li a.active {
     background: rgba(0, 195, 255, 0.1);
 }
 
-/* Responsiveness dyal l-Menu (Burger) */
+
 .checkbtn {
     font-size: 25px;
     color: white;
     cursor: pointer;
-    display: none; /* Makhfiy f PC */
+    display: none; 
 }
 
 #check {
     display: none;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
     height: 80vh;
     display: flex;
@@ -93,7 +90,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .hero h1 {
-    font-size: clamp(30px, 8vw, 60px); /* Fluid size */
+    font-size: clamp(30px, 8vw, 60px);
     letter-spacing: 4px;
     text-shadow: 0 0 20px var(--primary);
     animation: fadeInUp 1.2s ease;
@@ -112,7 +109,6 @@ nav ul li a:hover, nav ul li a.active {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* ===== MAIN SECTION ===== */
 section {
     padding: 80px 10%;
     text-align: center;
@@ -134,7 +130,6 @@ section p {
     text-align: justify;
 }
 
-/* ===== FOOTER ===== */
 footer {
     padding: 40px;
     background: var(--black);
@@ -143,7 +138,6 @@ footer {
     font-size: 14px;
 }
 
-/* ===== MEDIA QUERIES (Mobile) ===== */
 @media (max-width: 850px) {
     .checkbtn {
         display: block;
